@@ -1,2 +1,3 @@
-main.py
+src/main.py
 .idea/
+.src/__pycache__/
