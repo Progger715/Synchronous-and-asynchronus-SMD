@@ -18,6 +18,7 @@ def init_files():
     global file_practice_N
     file_path_D = Path(Path.cwd().parent, "outputData", "synch_practice_D.txt")
     file_path_N = Path(Path.cwd().parent, "outputData", "synch_practice_N.txt")
+    print(file_path_D)
     file_practice_D = open(file_path_D, 'w')
     file_practice_N = open(file_path_N, 'w')
 
@@ -61,7 +62,6 @@ def simulate_messaging(my_lambda):
             lambda_out += 1
 
         create_queue_messages(my_lambda, t)
-        # print("size_queue", queue_messages.qsize())
         count_users += queue_messages.qsize()
         t += 1
 
@@ -99,7 +99,8 @@ def get_average_delay(my_lambda):
 
 
 def get_average_count_users(my_lambda):
-    pass
+    global count_users
+    return count_users
 
 
 def make():
@@ -107,8 +108,10 @@ def make():
     my_lambda = 0.05
     while my_lambda < 1:  # for my_lambda in range(0.05, 2, 0.05):
         file_practice_D.write(f"{round(my_lambda, 3)} {round(get_average_delay(my_lambda), 4)}\n")
-        file_practice_N.write(f"{my_lambda} {get_average_count_users(my_lambda)}\n")
+        file_practice_N.write(f"{my_lambda} {round(get_average_count_users(my_lambda),4)}\n")
         my_lambda += 0.05
+    file_practice_D.close()
+    file_practice_N.close()
 
 
 if __name__ == "__main__":
