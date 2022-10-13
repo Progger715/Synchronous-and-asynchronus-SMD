@@ -1,8 +1,8 @@
 class Message:
-    __startTime = 0
-    __exit_time = 0
+    __startTime = 0.0
+    __exit_time = 0.0
 
-    def __init__(self, start_time=0, exit_time=0):
+    def __init__(self, start_time=0.0, exit_time=0.0):
         self.__start_time = start_time
         self.__exit_time = exit_time
 
@@ -27,6 +27,9 @@ class Message:
 
     def get_delta(self):
         return self.__exit_time - self.__start_time
+
+    def get_delta11(self):
+        return self.__start_time - self.__exit_time
 
 
 if __name__ == '__main__':

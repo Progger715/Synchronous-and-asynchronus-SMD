@@ -51,5 +51,30 @@ def draw_synch_N():
     plt.show()
 
 
+def draw_asynch_D():
+    file_path_D = Path(Path.cwd().parent, "outputData", "asynch_practice_D.txt")
+
+    # plt.rcParams["figure.figsize"] = [7.00, 3.50]
+    # plt.rcParams["figure.autolayout"] = True
+    bar_names = []  # [1,32,4,12,34,6,8,34,47]
+    bar_heights = []  # [0,20,23,25,21,22,10,14,15]
+
+    for line in open(file_path_D, "r"):
+        bar_name, bar_height = line.split()
+        bar_names.append(float(bar_name))
+        bar_heights.append(float(bar_height))
+
+    print(bar_names)
+    print(bar_heights)
+
+    fig, simple = plt.subplots()
+    # plt.title("Average delay for SMD M|D|1 asynchronize")
+    # plt.xlabel("lambda")
+    # plt.ylabel("average delay")
+    # plt.plot(bar_names, bar_heights)
+    simple.plot(bar_names, bar_heights)
+    plt.show()
+
+
 if __name__ == "__main__":
-    draw_synch_D()
+    draw_asynch_D()
