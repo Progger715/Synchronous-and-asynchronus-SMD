@@ -19,8 +19,8 @@
 * main.py - для удобного запуска.
 
 ## Примеры работы
-![Средняя задержка для асинхронной системы](outputData/graphical images/Asynchronous_system_average_delay.png)
-![Среднее число абонентов для асинхронной системы](outputData/graphical images/Asynchronous_system_average_count_users.png)
+![Средняя задержка для асинхронной системы](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_delay.png)
+![Среднее число абонентов для асинхронной системы](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_count_users.png)
 ![Средняя задержка для синхронной системы](outputData/graphical images/Synchronous_system_average_delay.png)
 ![Среднее число абонентов для асинхронной системы](outputData/graphical images/Synchronous_system_average_count_users.png)  
 ![Зависимость входного потока от выходного при размере окна передачи сообщения = 1 и = 2](outputData/graphical images/lambda_input_vs._lambda_output.png)
