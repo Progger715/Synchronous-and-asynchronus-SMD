@@ -1,7 +1,7 @@
 import math
 # import queue
 from alive_progress import alive_bar
-from queueFIFO import QueueFIFO
+from queue_FIFO import QueueFIFO
 import synchronous_SMD
 import random
 from pathlib import Path
