@@ -18,8 +18,8 @@ class QueueFIFO:
         #     res += 1
         return res
 
-    def get_without_deleting(self):
-        return self.data[0]
+    def get_without_deleting(self, index=0):
+        return self.data[index]
 
     def check_last_added(self):
         return self.data[-1]
