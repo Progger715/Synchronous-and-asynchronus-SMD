@@ -169,8 +169,8 @@ def draw_all_graphics():
 
 
 if __name__ == "__main__":
-    draw_all_graphics()
-    # draw_lambda()
+    # draw_all_graphics()
+    draw_lambda()
     # draw_asynch_D()
     # draw_asynch_N()
     # draw_synch_N()
