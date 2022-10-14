@@ -1,4 +1,3 @@
-import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 
@@ -22,7 +21,7 @@ def draw_synch_D():
     # print(bar_lambda)
     # print(bar_practice_D)
 
-    plt.figure(1)
+    plt.figure("Synchronous system average delay")
     plt.title("Average delay for SMD M|D|1 synchronize")
     plt.xlabel("lambda")
     plt.ylabel("average delay")
@@ -54,7 +53,7 @@ def draw_synch_N():
     # print(bar_lambda)
     # print(bar_practice_N)
 
-    plt.figure(2)
+    plt.figure("Synchronous system average count users")
     plt.title("Average count users for SMD M|D|1 synchronize")
     plt.xlabel("lambda")
     plt.ylabel("average count users")
@@ -85,7 +84,7 @@ def draw_asynch_D():
     # print(bar_lambda)
     # print(bar_practice_D)
 
-    plt.figure(3)
+    plt.figure("Asynchronous system average delay")
     plt.title("Average delay for SMD M|D|1 asynchronize")
     plt.xlabel("lambda")
     plt.ylabel("average delay")
@@ -117,7 +116,7 @@ def draw_asynch_N():
     # print(bar_lambda)
     # print(bar_practice_N)
 
-    plt.figure(4)
+    plt.figure("Asynchronous system average count users")
     plt.title("Average count users for SMD M|D|1 asynchronize")
     plt.xlabel("lambda")
     plt.ylabel("average count users")
@@ -149,10 +148,10 @@ def draw_lambda():
     # print(bar_lambda)
     # print(bar_practice_N)
 
-    plt.figure(2)
-    # plt.title("Average count users for SMD M|D|1 synchronize")
-    plt.xlabel("lambda")
-    plt.ylabel("lambda_out")
+    plt.figure("lambda input vs. lambda output")
+    plt.title("lambda input vs. lambda output")
+    plt.xlabel("lambda_input")
+    plt.ylabel("lambda_output")
     plt.plot(bar_lambda, bar_lambda_out_one, label='window = 1')
     plt.plot(bar_lambda, bar_lambda_out_two, label='window = 2')
 
