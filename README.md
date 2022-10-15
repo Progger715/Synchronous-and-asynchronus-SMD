@@ -10,8 +10,8 @@ and plots the dependencies of the average message transmission delay (practical 
 flow (lambda). Default message window size = 1.
 
 ## Explanation of the files
-* asynchronous_SMD.py - responsible for simulation of asynchronous mass service system;
 * synchronous_SMD.py - responsible for the simulation of the synchronous mass service system;
+* asynchronous_SMD.py - responsible for simulation of asynchronous mass service system;
 * graphics.py - for building graphs using the obtained data; * queue_FIFO;
 * queue_FIFO.py - queue of FIFO type. The standard python queue lacks some of the methods 
 necessary for the asynchronous system to work;
@@ -19,10 +19,10 @@ necessary for the asynchronous system to work;
 * main.py - for convenient startup.
 
 ## Examples of operation
-![Average delay for asynchronous system](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_delay.png)
-![Average number of subscribers for asynchronous system](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_count_users.png)
 ![Average delay for synchronous system](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/Synchronous_system_average_delay.png)
 ![Average number of subscribers for synchronous system](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/Synchronous_system_average_count_users.png)  
+![Average delay for asynchronous system](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_delay.png)
+![Average number of subscribers for asynchronous system](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_count_users.png)
 ![Dependence of input flow on output flow for message window size = 1 and = 2](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/lambda_input_vs._lambda_output.png)  
 
 Dependence of input flow on output flow with message window size = 1 and = 2
@@ -40,8 +40,8 @@ Dependence of input flow on output flow with message window size = 1 and = 2
 потока (lambda). Размер окна передачи сообщения по умолчанию = 1.
 
 ## Пояснение к файлам
-* asynchronous_SMD.py - отвечает за симуляцию работы асинхронной системы массового обслуживания;
 * synchronous_SMD.py - отвечает за симуляцию работы синхронной системы массового обслуживания;
+* asynchronous_SMD.py - отвечает за симуляцию работы асинхронной системы массового обслуживания;
 * graphics.py - построение графиков по полученным данным;
 * queue_FIFO.py - очередь типа FIFO. Так в стандартной очереди python (queue) нет некоторых методов, 
 необходимых для работы асинхронной системы;
@@ -49,10 +49,10 @@ Dependence of input flow on output flow with message window size = 1 and = 2
 * main.py - для удобного запуска.
 
 ## Примеры работы
-![Средняя задержка для асинхронной системы](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_delay.png)
-![Среднее число абонентов для асинхронной системы](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_count_users.png)
 ![Средняя задержка для синхронной системы](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/Synchronous_system_average_delay.png)
 ![Среднее число абонентов для синхронной системы](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/Synchronous_system_average_count_users.png)  
+![Средняя задержка для асинхронной системы](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_delay.png)
+![Среднее число абонентов для асинхронной системы](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_count_users.png)
 ![Зависимость входного потока от выходного при размере окна передачи сообщения = 1 и = 2](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/lambda_input_vs._lambda_output.png)  
 
 Зависимость входного потока от выходного при размере окна передачи сообщения = 1 и = 2
