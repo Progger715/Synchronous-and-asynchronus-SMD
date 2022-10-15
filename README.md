@@ -23,7 +23,8 @@ necessary for the asynchronous system to work;
 ![Average number of subscribers for asynchronous system](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_count_users.png)
 ![Average delay for synchronous system](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/Synchronous_system_average_delay.png)
 ![Average number of subscribers for synchronous system](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/Synchronous_system_average_count_users.png)  
-![Dependence of input flow on output flow for message window size = 1 and = 2](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/lambda_input_vs._lambda_output.png)
+![Dependence of input flow on output flow for message window size = 1 and = 2](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/lambda_input_vs._lambda_output.png)  
+
 Dependence of input flow on output flow with message window size = 1 and = 2
 
 
@@ -52,5 +53,6 @@ Dependence of input flow on output flow with message window size = 1 and = 2
 ![Среднее число абонентов для асинхронной системы](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/4b15ca783c234c3bc4196229ddfd89ed8540f1e4/outputData/graphical%20images/Asynchronous_system_average_count_users.png)
 ![Средняя задержка для синхронной системы](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/Synchronous_system_average_delay.png)
 ![Среднее число абонентов для синхронной системы](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/Synchronous_system_average_count_users.png)  
-![Зависимость входного потока от выходного при размере окна передачи сообщения = 1 и = 2](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/lambda_input_vs._lambda_output.png)
+![Зависимость входного потока от выходного при размере окна передачи сообщения = 1 и = 2](https://github.com/Progger715/Synchronous-and-asynchronus-SMD/blob/631c3fdbf4c72526ab12b903ad6acaedd1106aa1/outputData/graphical%20images/lambda_input_vs._lambda_output.png)  
+
 Зависимость входного потока от выходного при размере окна передачи сообщения = 1 и = 2
